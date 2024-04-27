@@ -1,5 +1,5 @@
 h, e, a, o, w, x = input().split()
-h, e, a, o, w, x = intcoração, int(e), int(a), int(o), int(w), int(x)
+h, e, a, o, w, x = int(h), int(e), int(a), int(o), int(w), int(x)
 '''
 somei os exercito do lado do bem e o do lado do mal e
 comparei qual era o maior, em caso de empate Bilbo vencerá o ultimo orc,
