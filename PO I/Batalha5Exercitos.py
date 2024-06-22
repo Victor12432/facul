@@ -6,6 +6,6 @@ comparei qual era o maior, em caso de empate Bilbo vencerá o ultimo orc,
 assim dando a vitória para o lado do bem.
 '''
 if h+e+a+x > o+w or h+e+a+x == o+w:
-print("Middle-earth is safe.")
+    print("Middle-earth is safe.")
 elif h+e+a+x < o+w:
-print("Sauron has returned.")
+    print("Sauron has returned.")

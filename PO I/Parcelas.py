@@ -12,10 +12,10 @@ resto = V % P
 nao_divisivel = resto != 0
 
 for i in range(1, P+1):
-valor = V//P
+    valor = V//P
 
 if nao_divisivel:
-if i <= resto:
-valor += 1
+    if i <= resto:
+        valor += 1
 
 print(valor)

@@ -1,0 +1,32 @@
+FATIAMENTO
+
+frase[1] = pegará o caracter no ponto escolhido.
+
+frase[1:3] = pegará o caracter do ponto escolhido até o segundo ponto -1.
+
+frase[1:10:2] = pegará o caracter do ponto escolhido até o segundo ponto -1 de dois em dois.
+
+frase[1:], frase[:5], frase[1::3] = são respectivamente, começa do ponto e percorre toda a str, começa do ponto 0 e vai até o ponto desejado -1 e começa do ponto desejado e vai até o fim do str pulado de três em três.
+
+MANIPULAÇÃO
+
+frase.count('parâmetro') = contará quantos "objetos" iguais as os parâmetros existem (fazendo distinção entre maiusculas e minusculas).
+
+frase.find('parâmetro') = dirá se há um "objeto" igual o parâmetro e retornará True ou False. Se colocar um parâmetro que não aparece na frase será retornado o valor de -1.
+
+'parâmetro' in frase = verifica se há esse "objeto" na str e retorna True ou False.
+
+frase.replace('parâmetro1', 'parâmetro2') = troca o parâmetro1 da frase pelo parâmetro2.
+
+frase.upper() e frase.lower = tornará respectivamente, o que for minusculo tornasse maiusculo e o que era maiusculo tornasse minusculo.
+
+frase.capitalize() = torna toda a str em minuscula e torna o ponto 0 em maiusculo.
+
+frase.title() = analiza quantas palavras tem na str e torna a primeira letra de cada em maiusculo.
+
+frase.strip() =  remove os espaços no começo e final da str, mas não os do meio. A duas variações: .rstrip e .lstrip respectivamente, ele removera apenas os espaços da direita e ele removera apenas os espaços da esquerda.
+
+DIVISÃO
+
+frase.split() = separará sua str por padrão nos espaços e a tornará um lista.
+' '.join(frase) = juntará sua lista e a tornará um str
