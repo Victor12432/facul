@@ -8,6 +8,7 @@ frase[1:10:2] = pegará o caracter do ponto escolhido até o segundo ponto -1 de
 
 frase[1:], frase[:5], frase[1::3] = são respectivamente, começa do ponto e percorre toda a str, começa do ponto 0 e vai até o ponto desejado -1 e começa do ponto desejado e vai até o fim do str pulado de três em três.
 
+
 MANIPULAÇÃO
 
 frase.count('parâmetro') = contará quantos "objetos" iguais as os parâmetros existem (fazendo distinção entre maiusculas e minusculas).
@@ -30,3 +31,12 @@ DIVISÃO
 
 frase.split() = separará sua str por padrão nos espaços e a tornará um lista.
 ' '.join(frase) = juntará sua lista e a tornará um str
+
+
+DICIONÁRIO
+del(dicionario{key}) = excluir a key e seu respectivo value 
+dicionario.values() = exibirar os valores das keys
+dicionario.key() = exibirar as keys presentes no dicionario
+dicionario.items() = exibirar keys e seus respectivos values
+
+vale resaltar que é possivél interar listas com dicionários "lista = [{dicionario1}, {dicionario2}, ..., {dicionarioN}] print(lista[i][key])
