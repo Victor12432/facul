@@ -13,9 +13,16 @@
         },
         {
             "type": "java",
+            "name": "HeartRatesTest",
+            "request": "launch",
+            "mainClass": "Capitulo3.HeartRatesTest",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
             "name": "HeartProfileTest",
             "request": "launch",
-            "mainClass": "HeartProfileTest",
+            "mainClass": "Capitulo3.HeartProfileTest",
             "projectName": "facul_636c8738"
         },
         {
@@ -26,30 +33,9 @@
         },
         {
             "type": "java",
-            "name": "AccountTest",
-            "request": "launch",
-            "mainClass": "AccountTest",
-            "projectName": "facul_636c8738"
-        },
-        {
-            "type": "java",
-            "name": "HeartRatesRandom",
-            "request": "launch",
-            "mainClass": "HeartRatesRandom",
-            "projectName": "facul_636c8738"
-        },
-        {
-            "type": "java",
-            "name": "HeartRatesTest",
-            "request": "launch",
-            "mainClass": "HeartRatesTest",
-            "projectName": "facul_636c8738"
-        },
-        {
-            "type": "java",
             "name": "InvoiceTest",
             "request": "launch",
-            "mainClass": "InvoiceTest",
+            "mainClass": "Capitulo3.InvoiceTest",
             "projectName": "facul_636c8738"
         }
     ]
