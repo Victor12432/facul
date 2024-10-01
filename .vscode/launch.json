@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HeartProfileTest",
+            "request": "launch",
+            "mainClass": "Capitulo3.HeartProfileTest",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
+            "name": "HeartProfileTest",
+            "request": "launch",
+            "mainClass": "HeartProfileTest",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
+            "name": "HeartRatesRandom",
+            "request": "launch",
+            "mainClass": "HeartRatesRandom",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
+            "name": "HeartRatesTest",
+            "request": "launch",
+            "mainClass": "HeartRatesTest",
+            "projectName": "facul_636c8738"
+        },
+        {
+            "type": "java",
+            "name": "InvoiceTest",
+            "request": "launch",
+            "mainClass": "InvoiceTest",
+            "projectName": "facul_636c8738"
+        }
+    ]
+}
